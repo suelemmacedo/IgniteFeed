@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client' //integra o react para funcionar no ambiente web(browser)
-import App from './App.jsx'
+import { App } from './App.jsx'
 
 /* DOM = Document Object Module */
 
