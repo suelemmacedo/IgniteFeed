@@ -1,0 +1,10 @@
+.wrapper {
+  max-width: 70rem;
+  margin: 2rem auto;
+  padding: 0 1rem; /* Neste caso, faz com que se eu diminua a tela para um tamanho menor que 70rem, o conteúdo não fique colado nas laterais, exista um espaçamento. */
+
+  display: grid;
+  grid-template-columns: 256px 1fr; /* 1fr aignifica que a 2a coluna terá um tamanho flexível.*/
+  gap: 2rem;
+  alignt-items:flex-start; /* Faz com que ambas as colunas sempre fique alinhadas para o topo. */
+}
