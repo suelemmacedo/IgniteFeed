@@ -8,3 +8,15 @@
   gap: 2rem;
   alignt-items:flex-start; /* Faz com que ambas as colunas sempre fique alinhadas para o topo. */
 }
+
+@media (max-width: 768px) {
+
+  html {
+    font-size: 87.5%; 
+    /* Faz um regra de 3 comparando 16px - 100 e o numero da fonte para x, isso aqui tem um poder com rem de diminuir toda a tela conforme o uso do rem na aplicação */
+  }
+
+  .wrapper{
+    grid-template-columns: 1fr;
+  }
+}

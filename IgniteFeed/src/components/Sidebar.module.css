@@ -18,15 +18,6 @@
   margin-top: calc(0px - 1.5rem - 6px); /* o zero utiliza pra negativar; o 1.5 é metade do 3rem debaixo do avatar e o 6px também é metade do 12px do avatar */
 }
 
-.avatar {
-  /* box-sizing: initial; Caso não queira usar o cálculo abaixo */ 
-  width: calc(3rem + 12px); /* 12 corresponde a: 4px + 4px (border) + 2px + 2px do outline */
-  height: calc(3rem + 12px);
-  border-radius: 8px;
-  border: 4px solid var(--gray-800);
-  outline:
-   2px solid var(--green-500); 
-}
 
 .profile strong {
   margin-top: 1rem;
